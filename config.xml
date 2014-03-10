@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.creativemediapro.mk10"
+        version     = "1.0.0"
+        versionCode = "01" >
+
+        <!-- versionCode is optional and Android only -->
+
+        <preference name="phonegap-version" value="3.1.0" />
+
+        <name>mk10 Config.xml</name>
+
+        <description>
+        Mark Ten Puzzle. 
+        </description>
+
+        <author href="http://creativemediapro.com" email="robert_perry@icloud.com">
+        Robert Perry|Joe K
+        </author>
+        <content src="index.html" />
+        <feature name="Device">
+            <param name="ios-package" value="CDVDevice" />
+        </feature>
+        <feature name="LocalStorage">
+            <param name="ios-package" value="CDVLocalStorage" />
+        </feature>
+        <access origin="mk10.visualarcs.com" />
+        <gap:plugin name="org.apache.cordova.ios" />
+        <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+        <preference name="HideKeyboardFormAccessoryBar" value="false"/>
+        <preference name="SuppressesIncrementalRendering" value="false" />
+        <preference name="UIWebViewBounce" value="true" />
+        <preference name="TopActivityIndicator" value="gray" />
+        <preference name="EnableLocation" value="false" />
+        <preference name="EnableViewportScale" value="false" />
+        <preference name="AutoHideSplashScreen" value="true" />
+        <preference name="ShowSplashScreenSpinner" value="true" />
+        <preference name="MediaPlaybackRequiresUserAction" value="false" />
+        <preference name="AllowInlineMediaPlayback" value="false" />
+        <preference name="OpenAllWhitelistURLsInWebView" value="true" />
+        <preference name="BackupWebStorage" value="cloud" />
+        <preference name="permissions" value="none" />
+        <preference name="orientation" value="landscape" />
+        <preference name="target-device" value="universal" />
+        <preference name="fullscreen" value="true" />
+        <preference name="webviewbounce" value="true" />
+        <preference name="prerendered-icon" value="true" />
+        <preference name="stay-in-webview" value="false" />
+        <preference name="ios-statusbarstyle" value="default" />
+        <preference name="detect-data-types" value="true" />
+        <preference name="exit-on-suspend" value="false" />
+        <preference name="show-splash-screen-spinner" value="true" />
+        <preference name="auto-hide-splash-screen" value="true" />
+        <preference name="disable-cursor" value="false" />
+        <feature name="Media">
+            <param name="ios-package" value="CDVSound" />
+        </feature>
+    </widget>

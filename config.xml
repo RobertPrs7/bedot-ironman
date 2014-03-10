@@ -28,6 +28,7 @@
         </feature>
         <access origin="mk10.visualarcs.com" />
         <gap:plugin name="org.apache.cordova.device" />
+        <gap:plugin name="nl.x-services.plugins.ioswebviewcolor" />
         <preference name="KeyboardDisplayRequiresUserAction" value="true" />
         <preference name="HideKeyboardFormAccessoryBar" value="false"/>
         <preference name="SuppressesIncrementalRendering" value="false" />

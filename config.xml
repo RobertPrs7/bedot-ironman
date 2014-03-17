@@ -10,14 +10,14 @@
 
         <preference name="phonegap-version" value="3.1.0" />
 
-        <name>mk10 Config.xml</name>
+        <name>MarkTenPuzzle</name>
 
         <description>
         Mark Ten Puzzle. 
         </description>
 
-        <author href="http://creativemediapro.com" email="robert_perry@icloud.com">
-        Robert Perry|Joe K
+        <author href="http://creativemediapro.com" email="robert_perry@mac.com">
+        Perry|Kosar
         </author>
         <content src="index.html" />
         <feature name="Device">
@@ -27,6 +27,20 @@
             <param name="ios-package" value="CDVLocalStorage" />
         </feature>
         <access origin="mk10.visualarcs.com" />
+        <gap:platform name="ios" />
+        <icon src="icons/ios/icon-29.png" gap:platform="ios" width="29" height="29" />
+        <icon src="icons/ios/icon.png" gap:platform="ios" width="58" height="58" />
+		<icon src="icons/ios/icon-40.png" gap:platform="ios" width="40" height="40" />
+		<icon src="icons/ios/icon-80.png" gap:platform="ios" width="80" height="80" />
+		<!-- retina iPad support: PhoneGap 2.5.0+ only -->
+		<icon src="icons/ios/icon-76.png" gap:platform="ios" width="76" height="76" />
+		<icon src="icons/ios/icon-76_at_2x.png" gap:platform="ios" width="152" height="152" />
+		<gap:splash src="splash.png" />
+		<gap:splash src="splash/ios/Default-Landscape.png" gap:platform="ios" width="1024" height="768" />
+		<gap:splash src="splash/ios/Default-Portrait.png" gap:platform="ios" width="768" height="1024" />
+		<!-- retina iPad support: PhoneGap 2.5.0+ only -->
+		<gap:splash src="splash/ios/Default-Landscape_at_2x.png" gap:platform="ios" width="2048" height="1536" />
+		<gap:splash src="splash/ios/Default-Portrait_at_2x.png" gap:platform="ios" width="1536" height="2008" />
         <gap:plugin name="org.apache.cordova.device" />
         <gap:plugin name="nl.x-services.plugins.ioswebviewcolor" />
         <preference name="KeyboardDisplayRequiresUserAction" value="true" />
@@ -47,7 +61,7 @@
         <preference name="target-device" value="universal" />
         <preference name="fullscreen" value="true" />
         <preference name="webviewbounce" value="true" />
-        <preference name="prerendered-icon" value="true" />
+        <preference name="prerendered-icon" value="false" />
         <preference name="stay-in-webview" value="false" />
         <preference name="ios-statusbarstyle" value="default" />
         <preference name="detect-data-types" value="true" />
